@@ -15,8 +15,8 @@ client_id = f'python-mqtt-{random.randint(0, 1000)}'
 def insertarDatos(timestamp,counter):
     try:
         connection = psycopg2.connect(user="postgres",
-                              password="BMrPTTqNBxCCnV4mpeWi",
-                              host="database-i3lab.c6otsqbxabcj.us-east-1.rds.amazonaws.com",
+                              password="*****",
+                              host="url",
                               port="5432",
                               database = "metadatasystem")
         cursor = connection.cursor()
