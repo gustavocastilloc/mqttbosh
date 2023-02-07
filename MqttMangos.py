@@ -34,8 +34,8 @@ def insertarDatos(timestamp,counter):
 def insertarDatosCaja(timestamp,counter,totalporcaja,tamano):
     try:
         connection = psycopg2.connect(user="postgres",
-                              password="BMrPTTqNBxCCnV4mpeWi",
-                              host="database-i3lab.c6otsqbxabcj.us-east-1.rds.amazonaws.com",
+                              password="*******",
+                              host="url",
                               port="5432",
                               database = "metadatasystem")
         cursor = connection.cursor()
@@ -53,8 +53,8 @@ def insertarDatosCaja(timestamp,counter,totalporcaja,tamano):
 def getValue():
     try:
         connection = psycopg2.connect(user="postgres",
-                              password="BMrPTTqNBxCCnV4mpeWi",
-                              host="database-i3lab.c6otsqbxabcj.us-east-1.rds.amazonaws.com",
+                              password="*****",
+                              host="url",
                               port="5432",
                               database = "metadatasystem")
         cursor = connection.cursor()
